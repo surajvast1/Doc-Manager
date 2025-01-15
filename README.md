@@ -43,7 +43,6 @@ Clone the repository to your local machine:
 
 ```bash
 git clone <repository-url>
-cd Docmanager
 ```
 
 ### Step 2: Set up environment variables
