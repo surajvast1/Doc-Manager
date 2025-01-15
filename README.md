@@ -1,6 +1,9 @@
 
 # DocManager - Document Management Gen AI Platform
 
+
+![DocManager Architecture](./docmanager-architecture.png)
+
 **DocManager** is an AI-powered document management platform designed for managing documents, extracting embeddings, and performing Retrieval-Augmented Generation (RAG) to provide AI-based responses to user queries. The platform uses FastAPI, OpenSearch, AWS S3, and OpenAI for seamless document processing, storage, and querying.
 
 ## Features
