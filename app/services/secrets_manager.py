@@ -10,7 +10,8 @@ load_dotenv()
 
 # API URLs - Keep only OpenSearch
 class APIUrls:
-    OPEN_SEARCH_URL = "https://search-cellstrat-477fgqwwllgxyc3yez6gk2if6q.aos.us-east-1.on.aws"
+    OPEN_SEARCH_URL = ""
+    # //enter your url
 
 # OpenSearch Indices
 class OpenSearchIndices:

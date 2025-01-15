@@ -31,7 +31,8 @@ async def process_files(request: ProcessRequest):
         embedding_model = OpenAIEmbeddings(openai_api_key=OPENAI_CLIENT.api_key)
 
         # Create OpenSearch index if it doesn't exist
-        vector_field = "docmanagerembeddings"
+        vector_field = "docmanagerembeddings" 
+        # //enter your s3 bucket name 
         dimensions = 1536  # Adjust according to your embedding model
         create_index(OpenSearchIndices.DOCUMENT_EMBEDDINGS_INDEX, vector_field, dimensions, client=OS_CLIENT)
 
