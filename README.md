@@ -236,5 +236,3 @@ If you'd like to contribute to DocManager, feel free to fork the repository and 
 
 This project is licensed under no one - free to use by anyone.
 --- 
-
-This README provides a detailed description of the DocManager project, covering its features, setup, and API endpoints to guide users through the installation and usage process.
